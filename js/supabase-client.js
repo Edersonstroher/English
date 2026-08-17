@@ -4,7 +4,7 @@
 // Encontra em: Supabase > Project Settings > API
 // ============================================================
 
-const SUPABASE_URL = "https://sxmcoroallwsjqhkvqns.supabase.co/rest/v1/";
+const SUPABASE_URL = "https://sxmcoroallwsjqhkvqns.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_Llqy5PNDWFYY5dCPyKEvgg_QbrFoQEk";
 
 const { createClient } = supabase;
