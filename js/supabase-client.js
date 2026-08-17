@@ -5,7 +5,7 @@
 // ============================================================
 
 const SUPABASE_URL = "https://sxmcoroallwsjqhkvqns.supabase.co/rest/v1/";
-const SUPABASE_ANON_KEY = "sb_secret_mRya6kcSyKhmDPVt5pntKg_XaNzvr0j";
+const SUPABASE_ANON_KEY = "sb_publishable_Llqy5PNDWFYY5dCPyKEvgg_QbrFoQEk";
 
 const { createClient } = supabase;
 const db = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
