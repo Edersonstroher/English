@@ -249,6 +249,126 @@ const LESSONS = {
           { q: "Corrija: 'Did you scheduled the meeting?'", type: "correct", answer: "Did you schedule the meeting?" },
           { q: "Corrija: 'We going to launch it.'", type: "correct", answer: "We are going to launch it." }
         ]
+      },
+      {
+        id: "biz_m3",
+        title: "Experiência Profissional e Negociações",
+        days: [
+          {
+            id: "biz_m3_d1",
+            title: "Falando sobre experiência profissional",
+            vocab: [
+              ["career", "carreira"],
+              ["achievement", "conquista"],
+              ["to manage (a team)", "gerenciar (uma equipe)"],
+              ["responsible for", "responsável por"],
+              ["background", "histórico / experiência prévia"],
+              ["to promote / promotion", "promover / promoção"]
+            ],
+            grammarTitle: "Present Perfect (experiência profissional)",
+            grammarExplain: "Usamos have/has + particípio passado para falar de experiências sem dizer quando aconteceram exatamente.",
+            grammarExamples: ["I have worked in sales for five years.", "She has managed three different teams."],
+            commonMistakes: [
+              "❌ 'I have work here' → ✅ 'I have worked here'",
+              "❌ 'She has manage a team' → ✅ 'She has managed a team'",
+              "❌ 'I have worked here since five years' → ✅ 'I have worked here for five years'"
+            ],
+            dialogue: [
+              ["A", "Tell me about your background."],
+              ["B", "I've worked in marketing for five years and I've managed two teams."],
+              ["A", "Have you ever been promoted?"],
+              ["B", "Yes, I was promoted last year."]
+            ],
+            memoryTip: "'Achievement' tem 'achieve' (alcançar) — pense em algo que você 'alcançou' com esforço.",
+            translation: [
+              "Eu trabalho aqui há cinco anos.",
+              "Ela já gerenciou três equipes.",
+              "Você já foi promovido?",
+              "Essa é uma grande conquista.",
+              "Eu sou responsável pelo projeto."
+            ]
+          },
+          {
+            id: "biz_m3_d2",
+            title: "Fazendo propostas e negociando",
+            vocab: [
+              ["to propose", "propor"],
+              ["deal", "acordo"],
+              ["budget", "orçamento"],
+              ["to negotiate", "negociar"],
+              ["in exchange for", "em troca de"],
+              ["counteroffer", "contraproposta"]
+            ],
+            grammarTitle: "First Conditional (if + present, will + verbo)",
+            grammarExplain: "Usamos para falar de situações reais e possíveis no futuro: If + present simple, will + verbo infinitivo.",
+            grammarExamples: ["If we increase the budget, we will finish faster.", "If you accept the deal, we will sign the contract."],
+            commonMistakes: [
+              "❌ 'If we will increase the budget' → ✅ 'If we increase the budget'",
+              "❌ 'If you accept, we sign' (sem will) → ✅ 'If you accept, we will sign'",
+              "❌ 'If we negotiate, we will avoiding delays' → ✅ 'If we negotiate, we will avoid delays'"
+            ],
+            dialogue: [
+              ["A", "If we increase the budget, will we finish faster?"],
+              ["B", "Yes, if you accept this deal, we will finish two weeks earlier."],
+              ["A", "What if we negotiate a lower price?"],
+              ["B", "If you offer something in exchange, I'll consider a counteroffer."]
+            ],
+            memoryTip: "'Deal' também aparece em 'no big deal' — pense em um 'acordo' que fecha um assunto.",
+            translation: [
+              "Se nós aumentarmos o orçamento, terminaremos mais rápido.",
+              "Se você aceitar o acordo, nós assinaremos o contrato.",
+              "Eu vou negociar um preço melhor.",
+              "Essa é a nossa contraproposta.",
+              "O que você oferece em troca?"
+            ]
+          },
+          {
+            id: "biz_m3_d3",
+            title: "Dando feedback no trabalho",
+            vocab: [
+              ["feedback", "retorno / feedback"],
+              ["to improve", "melhorar"],
+              ["strength", "ponto forte"],
+              ["weakness", "ponto fraco"],
+              ["to point out", "apontar"],
+              ["constructive", "construtivo"]
+            ],
+            grammarTitle: "Should / could para sugestões e feedback",
+            grammarExplain: "Usamos 'should' para recomendar mudanças e 'could' para sugerir possibilidades de forma mais suave.",
+            grammarExamples: ["You should improve your time management.", "You could ask for help when needed."],
+            commonMistakes: [
+              "❌ 'You should to improve' → ✅ 'You should improve'",
+              "❌ 'You could to ask for help' → ✅ 'You could ask for help'",
+              "❌ 'She should improves' → ✅ 'She should improve'"
+            ],
+            dialogue: [
+              ["A", "Can I give you some feedback?"],
+              ["B", "Sure, I'd love constructive feedback."],
+              ["A", "You should improve your time management, but your communication is a real strength."],
+              ["B", "Thanks, I could definitely work on that."]
+            ],
+            memoryTip: "'Constructive' tem 'construct' (construir) — pense em feedback que 'constrói' algo melhor.",
+            translation: [
+              "Você deveria melhorar sua gestão de tempo.",
+              "Esse é o seu ponto forte.",
+              "Qual é o meu ponto fraco?",
+              "Eu adoraria um feedback construtivo.",
+              "Você poderia pedir ajuda quando precisar."
+            ]
+          }
+        ],
+        quiz: [
+          { q: "I ___ (work) here for five years. (experiência)", type: "fill", answer: "have worked" },
+          { q: "If we increase the budget, we ___ (finish) faster.", type: "fill", answer: "will finish" },
+          { q: "You ___ improve your time management. (sugestão)", type: "fill", answer: "should" },
+          { q: "She has ___ (manage) three teams.", type: "fill", answer: "managed" },
+          { q: "Traduza: 'Ela já gerenciou três equipes.'", type: "translate", answer: "She has managed three teams." },
+          { q: "Traduza: 'Se você aceitar o acordo, nós assinaremos o contrato.'", type: "translate", answer: "If you accept the deal, we will sign the contract." },
+          { q: "Traduza: 'Você deveria melhorar sua gestão de tempo.'", type: "translate", answer: "You should improve your time management." },
+          { q: "Corrija: 'I have work here for five years.'", type: "correct", answer: "I have worked here for five years." },
+          { q: "Corrija: 'If we will increase the budget.'", type: "correct", answer: "If we increase the budget." },
+          { q: "Corrija: 'You should to improve.'", type: "correct", answer: "You should improve." }
+        ]
       }
     ]
   },
@@ -463,6 +583,126 @@ const LESSONS = {
           { q: "Corrija: 'I get lost yesterday.'", type: "correct", answer: "I got lost yesterday." },
           { q: "Corrija: 'We visited to Paris.'", type: "correct", answer: "We visited Paris." }
         ]
+      },
+      {
+        id: "trav_m3",
+        title: "Emergências e Situações Inesperadas",
+        days: [
+          {
+            id: "trav_m3_d1",
+            title: "Lidando com emergências",
+            vocab: [
+              ["emergency", "emergência"],
+              ["to lose (lost)", "perder"],
+              ["embassy", "embaixada"],
+              ["to report (to police)", "registrar (na polícia)"],
+              ["insurance", "seguro"],
+              ["urgent", "urgente"]
+            ],
+            grammarTitle: "Must / have to (obrigação em emergências)",
+            grammarExplain: "'Must' e 'have to' expressam obrigação. 'Must' é mais forte/formal, 'have to' é mais comum no dia a dia.",
+            grammarExamples: ["You must report this to the police.", "I have to call my insurance company."],
+            commonMistakes: [
+              "❌ 'You must to report it' → ✅ 'You must report it'",
+              "❌ 'I have call the embassy' → ✅ 'I have to call the embassy'",
+              "❌ 'She must goes to the embassy' → ✅ 'She must go to the embassy'"
+            ],
+            dialogue: [
+              ["A", "I lost my passport! What should I do?"],
+              ["B", "You must report it to the police immediately."],
+              ["A", "Do I have to call the embassy too?"],
+              ["B", "Yes, it's urgent. You have to contact them today."]
+            ],
+            memoryTip: "'Urgent' soa parecido em português — pense em algo 'urgente' que não pode esperar.",
+            translation: [
+              "Eu perdi meu passaporte.",
+              "Você deve registrar isso na polícia.",
+              "Eu tenho que ligar para o seguro.",
+              "Isso é urgente.",
+              "Nós precisamos contatar a embaixada."
+            ]
+          },
+          {
+            id: "trav_m3_d2",
+            title: "Perguntando sobre experiências de viagem",
+            vocab: [
+              ["have you ever...?", "você já...?"],
+              ["abroad", "no exterior"],
+              ["to travel alone", "viajar sozinho(a)"],
+              ["backpacking", "mochilão"],
+              ["culture shock", "choque cultural"],
+              ["unforgettable", "inesquecível"]
+            ],
+            grammarTitle: "Present Perfect (experiências de viagem)",
+            grammarExplain: "Usamos 'Have you ever...?' para perguntar sobre experiências de vida, sem especificar quando aconteceram.",
+            grammarExamples: ["Have you ever traveled abroad?", "I have never been backpacking."],
+            commonMistakes: [
+              "❌ 'Have you ever traveled abroad yesterday?' → ✅ 'Did you travel abroad yesterday?'",
+              "❌ 'I never have been' → ✅ 'I have never been'",
+              "❌ 'Have you went abroad?' → ✅ 'Have you been abroad?'"
+            ],
+            dialogue: [
+              ["A", "Have you ever traveled alone?"],
+              ["B", "Yes, I've been backpacking twice. It was unforgettable!"],
+              ["A", "Did you have any culture shock?"],
+              ["B", "A little, but I loved every moment."]
+            ],
+            memoryTip: "'Unforgettable' = 'un' (não) + 'forgettable' (esquecível) — algo que não dá pra esquecer.",
+            translation: [
+              "Você já viajou sozinho?",
+              "Eu nunca fiz mochilão.",
+              "Foi uma experiência inesquecível.",
+              "Eu tive um pouco de choque cultural.",
+              "Você já viajou para o exterior?"
+            ]
+          },
+          {
+            id: "trav_m3_d3",
+            title: "Se comunicando em situações do dia a dia na viagem",
+            vocab: [
+              ["to exchange money", "trocar dinheiro"],
+              ["currency", "moeda"],
+              ["ATM", "caixa eletrônico"],
+              ["to rent (a car)", "alugar (um carro)"],
+              ["SIM card", "chip de celular"],
+              ["Wi-Fi password", "senha do wi-fi"]
+            ],
+            grammarTitle: "Perguntas com Where/How/Can (situações práticas)",
+            grammarExplain: "Combinamos palavras interrogativas (where, how) com 'can' para pedir informações práticas em viagens.",
+            grammarExamples: ["Where can I exchange money?", "How can I rent a car here?"],
+            commonMistakes: [
+              "❌ 'Where I can exchange money?' → ✅ 'Where can I exchange money?'",
+              "❌ 'How I can rent a car?' → ✅ 'How can I rent a car?'",
+              "❌ 'Can I to buy a SIM card?' → ✅ 'Can I buy a SIM card?'"
+            ],
+            dialogue: [
+              ["A", "Where can I exchange money around here?"],
+              ["B", "There's an ATM and a currency exchange near the hotel."],
+              ["A", "How can I rent a car and get a SIM card?"],
+              ["B", "Both are available at the airport."]
+            ],
+            memoryTip: "'Currency' lembra 'correr' (fluir) — pense no dinheiro 'circulando' entre países.",
+            translation: [
+              "Onde posso trocar dinheiro?",
+              "Como eu posso alugar um carro?",
+              "Qual é a senha do wi-fi?",
+              "Eu preciso comprar um chip de celular.",
+              "Tem um caixa eletrônico perto daqui?"
+            ]
+          }
+        ],
+        quiz: [
+          { q: "You ___ report it to the police. (obrigação forte)", type: "fill", answer: "must" },
+          { q: "I ___ (have) to call the embassy.", type: "fill", answer: "have" },
+          { q: "___ you ever traveled abroad?", type: "fill", answer: "Have" },
+          { q: "___ can I exchange money?", type: "fill", answer: "Where" },
+          { q: "Traduza: 'Eu perdi meu passaporte.'", type: "translate", answer: "I lost my passport." },
+          { q: "Traduza: 'Você já viajou sozinho?'", type: "translate", answer: "Have you ever traveled alone?" },
+          { q: "Traduza: 'Onde posso trocar dinheiro?'", type: "translate", answer: "Where can I exchange money?" },
+          { q: "Corrija: 'You must to report it.'", type: "correct", answer: "You must report it." },
+          { q: "Corrija: 'I never have been.'", type: "correct", answer: "I have never been." },
+          { q: "Corrija: 'Where I can exchange money?'", type: "correct", answer: "Where can I exchange money?" }
+        ]
       }
     ]
   },
@@ -643,6 +883,126 @@ const LESSONS = {
           { q: "Corrija: 'You should to watch it.'", type: "correct", answer: "You should watch it." },
           { q: "Corrija: 'I am into of this show.'", type: "correct", answer: "I am into this show." }
         ]
+      },
+      {
+        id: "pop_m3",
+        title: "Cultura Pop Mais a Fundo",
+        days: [
+          {
+            id: "pop_m3_d1",
+            title: "Falando sobre música e shows",
+            vocab: [
+              ["concert", "show / concerto"],
+              ["lyrics", "letra (de música)"],
+              ["to release (an album)", "lançar (um álbum)"],
+              ["fan", "fã"],
+              ["setlist", "lista de músicas do show"],
+              ["to go viral", "viralizar"]
+            ],
+            grammarTitle: "Can't wait to / to be dying to (expressando ansiedade)",
+            grammarExplain: "'Can't wait to' e 'be dying to' expressam grande expectativa ou ansiedade para algo acontecer.",
+            grammarExamples: ["I can't wait to see the concert!", "She's dying to hear the new album."],
+            commonMistakes: [
+              "❌ 'I can't wait see it' → ✅ 'I can't wait to see it'",
+              "❌ 'I am dying to listen the album' → ✅ 'I am dying to listen to the album'",
+              "❌ 'I can't wait for see you' → ✅ 'I can't wait to see you'"
+            ],
+            dialogue: [
+              ["A", "Did you hear the new album just released?"],
+              ["B", "Yes! I can't wait to see the concert next month."],
+              ["A", "Are the lyrics as good as the last album?"],
+              ["B", "Even better, it's already going viral online."]
+            ],
+            memoryTip: "'Fan' vem de 'fanatic' — pense em alguém 'fanático' por algo.",
+            translation: [
+              "Eu mal posso esperar para ver o show.",
+              "Ela está morrendo de vontade de ouvir o álbum novo.",
+              "Essa música viralizou rápido.",
+              "A letra dessa música é linda.",
+              "Ele lançou um álbum novo semana passada."
+            ]
+          },
+          {
+            id: "pop_m3_d2",
+            title: "Falando sobre prêmios e produções (Voz Passiva)",
+            vocab: [
+              ["award", "prêmio"],
+              ["to direct (a movie)", "dirigir (um filme)"],
+              ["director", "diretor(a)"],
+              ["to nominate", "indicar (para prêmio)"],
+              ["to win (an award)", "ganhar (um prêmio)"],
+              ["box office", "bilheteria"]
+            ],
+            grammarTitle: "Voz Passiva (Present/Past Simple)",
+            grammarExplain: "Usamos a voz passiva quando o foco é a ação, não quem a faz: to be + particípio passado.",
+            grammarExamples: ["This movie was directed by a famous director.", "The award is given every year."],
+            commonMistakes: [
+              "❌ 'This movie was direct by' → ✅ 'This movie was directed by'",
+              "❌ 'The award gave every year' → ✅ 'The award is given every year'",
+              "❌ 'She was nominate for an award' → ✅ 'She was nominated for an award'"
+            ],
+            dialogue: [
+              ["A", "Who directed this movie?"],
+              ["B", "It was directed by a famous director. It was nominated for three awards."],
+              ["A", "Did it win anything?"],
+              ["B", "Yes! It won best picture and broke box office records."]
+            ],
+            memoryTip: "'Nominate' soa como 'nomear' — pense em ser 'nomeado' pra concorrer a um prêmio.",
+            translation: [
+              "Esse filme foi dirigido por um diretor famoso.",
+              "O filme foi indicado a três prêmios.",
+              "Ele ganhou o prêmio de melhor filme.",
+              "Essa série é assistida por milhões de pessoas.",
+              "O prêmio é dado todo ano."
+            ]
+          },
+          {
+            id: "pop_m3_d3",
+            title: "Discutindo tendências e cultura pop atual",
+            vocab: [
+              ["trend", "tendência"],
+              ["to trend (verb)", "estar em alta / bombando"],
+              ["influencer", "influenciador(a)"],
+              ["hype", "expectativa / hype"],
+              ["mainstream", "popular / mainstream"],
+              ["fandom", "comunidade de fãs"]
+            ],
+            grammarTitle: "Present Perfect Continuous",
+            grammarExplain: "Usamos have/has + been + verbo-ing para falar de ações que começaram no passado e continuam ou têm efeito no presente.",
+            grammarExamples: ["Everyone has been talking about this trend.", "She has been following this fandom for years."],
+            commonMistakes: [
+              "❌ 'Everyone has talking about it' → ✅ 'Everyone has been talking about it'",
+              "❌ 'She has follow this fandom' → ✅ 'She has been following this fandom'",
+              "❌ 'I have been trend it' → ✅ 'I have been following the trend'"
+            ],
+            dialogue: [
+              ["A", "Have you seen this trend everywhere?"],
+              ["B", "Yes, everyone has been talking about it, it's all over social media."],
+              ["A", "Are you into that fandom?"],
+              ["B", "I've been following it for years, the hype is real!"]
+            ],
+            memoryTip: "'Hype' é uma palavra curta usada até em português — pense em 'expectativa alta' antes de algo acontecer.",
+            translation: [
+              "Todo mundo está falando sobre essa tendência.",
+              "Ela segue esse fandom há anos.",
+              "Esse influenciador está em alta agora.",
+              "O hype por esse filme é enorme.",
+              "Essa música virou mainstream rapidinho."
+            ]
+          }
+        ],
+        quiz: [
+          { q: "I can't wait ___ (see) the concert!", type: "fill", answer: "to see" },
+          { q: "This movie ___ (direct) by a famous director.", type: "fill", answer: "was directed" },
+          { q: "She has ___ (be) nominated for an award.", type: "fill", answer: "been" },
+          { q: "Everyone has ___ (talk) about this trend.", type: "fill", answer: "been talking" },
+          { q: "Traduza: 'Eu mal posso esperar para ver o show.'", type: "translate", answer: "I can't wait to see the concert." },
+          { q: "Traduza: 'Esse filme foi dirigido por um diretor famoso.'", type: "translate", answer: "This movie was directed by a famous director." },
+          { q: "Traduza: 'Todo mundo está falando sobre essa tendência.'", type: "translate", answer: "Everyone has been talking about this trend." },
+          { q: "Corrija: 'I can't wait see it.'", type: "correct", answer: "I can't wait to see it." },
+          { q: "Corrija: 'This movie was direct by him.'", type: "correct", answer: "This movie was directed by him." },
+          { q: "Corrija: 'Everyone has talking about it.'", type: "correct", answer: "Everyone has been talking about it." }
+        ]
       }
     ]
   },
@@ -822,6 +1182,126 @@ const LESSONS = {
           { q: "Corrija: 'You should to restart it.'", type: "correct", answer: "You should restart it." },
           { q: "Corrija: 'This phone is more faster.'", type: "correct", answer: "This phone is faster." },
           { q: "Corrija: 'I am posting every day.'", type: "correct", answer: "I post every day." }
+        ]
+      },
+      {
+        id: "tech_m3",
+        title: "Segurança Digital e Inteligência Artificial",
+        days: [
+          {
+            id: "tech_m3_d1",
+            title: "Segurança digital e senhas",
+            vocab: [
+              ["to hack", "hackear"],
+              ["data breach", "vazamento de dados"],
+              ["two-factor authentication", "autenticação de dois fatores"],
+              ["suspicious (link/email)", "suspeito (link/email)"],
+              ["to protect", "proteger"],
+              ["privacy", "privacidade"]
+            ],
+            grammarTitle: "If + Present Simple, might/could + verbo (possibilidade)",
+            grammarExplain: "Usamos 'might' e 'could' depois de uma condição para falar de possibilidades (menos certas que 'will').",
+            grammarExamples: ["If you click that link, you might get hacked.", "If your password is weak, someone could access your account."],
+            commonMistakes: [
+              "❌ 'If you click, you might to get hacked' → ✅ 'If you click, you might get hacked'",
+              "❌ 'If you will click' → ✅ 'If you click'",
+              "❌ 'Someone could accesses' → ✅ 'Someone could access'"
+            ],
+            dialogue: [
+              ["A", "I got a suspicious email asking for my password."],
+              ["B", "Don't click it! If you click that link, you might get hacked."],
+              ["A", "Should I turn on two-factor authentication?"],
+              ["B", "Definitely, it could protect your account from a data breach."]
+            ],
+            memoryTip: "'Suspicious' soa como 'suspeito' — quase igual em português.",
+            translation: [
+              "Se você clicar nesse link, pode ser hackeado.",
+              "Ative a autenticação de dois fatores.",
+              "Esse email parece suspeito.",
+              "Isso pode proteger sua privacidade.",
+              "Houve um vazamento de dados na empresa."
+            ]
+          },
+          {
+            id: "tech_m3_d2",
+            title: "Falando sobre inteligência artificial",
+            vocab: [
+              ["artificial intelligence (AI)", "inteligência artificial (IA)"],
+              ["to automate", "automatizar"],
+              ["algorithm", "algoritmo"],
+              ["chatbot", "chatbot"],
+              ["to generate", "gerar"],
+              ["machine learning", "aprendizado de máquina"]
+            ],
+            grammarTitle: "Will / might para previsões sobre o futuro",
+            grammarExplain: "'Will' expressa previsões mais certas; 'might' expressa previsões possíveis, mas incertas.",
+            grammarExamples: ["AI will change many jobs.", "This algorithm might automate the whole process."],
+            commonMistakes: [
+              "❌ 'AI will changes jobs' → ✅ 'AI will change jobs'",
+              "❌ 'It might to automate' → ✅ 'It might automate'",
+              "❌ 'AI going to change everything' (falta 'is') → ✅ 'AI is going to change everything'"
+            ],
+            dialogue: [
+              ["A", "Do you think AI will change our jobs?"],
+              ["B", "It might automate a lot of tasks, but I don't think it will replace everyone."],
+              ["A", "This chatbot generates really good answers."],
+              ["B", "Yes, the algorithm behind it uses machine learning."]
+            ],
+            memoryTip: "'Automate' tem 'auto' (sozinho) — pense em algo que funciona 'sozinho', sem ajuda.",
+            translation: [
+              "A inteligência artificial vai mudar muitos empregos.",
+              "Esse algoritmo pode automatizar o processo.",
+              "O chatbot gera respostas rápidas.",
+              "Isso usa aprendizado de máquina.",
+              "Pode ser que a IA substitua algumas tarefas."
+            ]
+          },
+          {
+            id: "tech_m3_d3",
+            title: "Comprando e usando tecnologia de forma segura",
+            vocab: [
+              ["to back up (data)", "fazer backup (de dados)"],
+              ["cloud storage", "armazenamento em nuvem"],
+              ["antivirus", "antivírus"],
+              ["to update software", "atualizar o software"],
+              ["firewall", "firewall"],
+              ["secure", "seguro"]
+            ],
+            grammarTitle: "Imperativos + should para boas práticas de segurança",
+            grammarExplain: "Combinamos imperativos e 'should' para dar dicas e recomendações de segurança digital.",
+            grammarExamples: ["Always back up your data.", "You should update your software regularly."],
+            commonMistakes: [
+              "❌ 'Always backing up' → ✅ 'Always back up'",
+              "❌ 'You should updating' → ✅ 'You should update'",
+              "❌ 'Use to a firewall' → ✅ 'Use a firewall'"
+            ],
+            dialogue: [
+              ["A", "How do I keep my data secure?"],
+              ["B", "Always back up your files to cloud storage, and use a good antivirus."],
+              ["A", "Should I update my software often?"],
+              ["B", "Yes, you should update it regularly and use a firewall too."]
+            ],
+            memoryTip: "'Secure' e 'security' têm a mesma raiz de 'segurança' — fácil de associar.",
+            translation: [
+              "Sempre faça backup dos seus dados.",
+              "Use um armazenamento em nuvem seguro.",
+              "Você deveria atualizar o software regularmente.",
+              "Instale um bom antivírus.",
+              "Use um firewall para proteção extra."
+            ]
+          }
+        ],
+        quiz: [
+          { q: "If you click that link, you ___ (might/get) hacked.", type: "fill", answer: "might get" },
+          { q: "AI ___ (will/change) many jobs.", type: "fill", answer: "will change" },
+          { q: "Always ___ (back up) your data.", type: "fill", answer: "back up" },
+          { q: "You ___ update your software regularly.", type: "fill", answer: "should" },
+          { q: "Traduza: 'Se você clicar nesse link, pode ser hackeado.'", type: "translate", answer: "If you click that link, you might get hacked." },
+          { q: "Traduza: 'A inteligência artificial vai mudar muitos empregos.'", type: "translate", answer: "AI will change many jobs." },
+          { q: "Traduza: 'Sempre faça backup dos seus dados.'", type: "translate", answer: "Always back up your data." },
+          { q: "Corrija: 'If you click, you might to get hacked.'", type: "correct", answer: "If you click, you might get hacked." },
+          { q: "Corrija: 'AI will changes jobs.'", type: "correct", answer: "AI will change jobs." },
+          { q: "Corrija: 'You should updating your software.'", type: "correct", answer: "You should update your software." }
         ]
       }
     ]
