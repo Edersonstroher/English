@@ -1305,5 +1305,1285 @@ const LESSONS = {
         ]
       }
     ]
+  },
+
+  home_family: {
+    name: "Casa e Família",
+    icon: "🏠",
+    color: "#7CB342",
+    modules: [
+      {
+        id: "home_m1",
+        title: "Vida em Família e Rotina Doméstica",
+        days: [
+          {
+            id: "home_m1_d1",
+            title: "Cômodos e móveis da casa",
+            vocab: [
+              ["living room", "sala de estar"],
+              ["kitchen", "cozinha"],
+              ["bedroom", "quarto"],
+              ["backyard", "quintal"],
+              ["furniture", "móveis"],
+              ["appliance", "eletrodoméstico"]
+            ],
+            grammarTitle: "There is / There are",
+            grammarExplain: "Usamos 'there is' para singular e 'there are' para plural, pra falar sobre o que existe em um lugar.",
+            grammarExamples: ["There is a sofa in the living room.", "There are three bedrooms in this house."],
+            commonMistakes: [
+              "❌ 'There is three bedrooms' → ✅ 'There are three bedrooms'",
+              "❌ 'There are a sofa' → ✅ 'There is a sofa'",
+              "❌ 'Is there a sofa in the living room' (sem inversão em afirmativa) → ✅ 'There is a sofa'"
+            ],
+            dialogue: [
+              ["A", "Is there a backyard in your new house?"],
+              ["B", "Yes, there is! And there are three bedrooms too."],
+              ["A", "Is there a lot of furniture already?"],
+              ["B", "Not yet, we still need to buy some appliances."]
+            ],
+            memoryTip: "'Appliance' soa como 'aplicar' — pense em aparelhos que 'aplicamos' pra facilitar tarefas de casa.",
+            translation: [
+              "Tem um sofá na sala de estar.",
+              "Tem três quartos nessa casa.",
+              "Tem um quintal grande.",
+              "Não tem muitos móveis ainda.",
+              "Tem uma cozinha nova."
+            ]
+          },
+          {
+            id: "home_m1_d2",
+            title: "Tarefas domésticas",
+            vocab: [
+              ["chore", "tarefa doméstica"],
+              ["to do the dishes", "lavar a louça"],
+              ["to do the laundry", "lavar roupa"],
+              ["to vacuum", "aspirar"],
+              ["to tidy up", "arrumar / organizar"],
+              ["to take out the trash", "levar o lixo pra fora"]
+            ],
+            grammarTitle: "Present Simple (rotina e hábitos)",
+            grammarExplain: "Usamos o Present Simple para falar de hábitos e rotinas, incluindo tarefas de casa que se repetem.",
+            grammarExamples: ["I do the dishes every night.", "She vacuums the living room on Saturdays."],
+            commonMistakes: [
+              "❌ 'She vacuum the house' → ✅ 'She vacuums the house'",
+              "❌ 'I doing the laundry every day' → ✅ 'I do the laundry every day'",
+              "❌ 'He take out the trash' → ✅ 'He takes out the trash'"
+            ],
+            dialogue: [
+              ["A", "Who does the dishes in your house?"],
+              ["B", "I do the dishes, and my brother takes out the trash."],
+              ["A", "Do you tidy up your room every day?"],
+              ["B", "Yes, and I do the laundry on weekends."]
+            ],
+            memoryTip: "'Chore' rima com 'floor' — pense em tarefas que fazemos no 'chão' da casa, tipo aspirar.",
+            translation: [
+              "Eu lavo a louça toda noite.",
+              "Ela aspira a sala aos sábados.",
+              "Nós arrumamos o quarto juntos.",
+              "Ele leva o lixo pra fora.",
+              "Você lava roupa aos domingos?"
+            ]
+          },
+          {
+            id: "home_m1_d3",
+            title: "Conversas em família",
+            vocab: [
+              ["sibling", "irmão/irmã"],
+              ["relative", "parente"],
+              ["to get along (with)", "se dar bem (com)"],
+              ["to argue", "discutir / brigar"],
+              ["household", "lar / residência"],
+              ["quality time", "tempo de qualidade"]
+            ],
+            grammarTitle: "Present Simple - negativas e perguntas",
+            grammarExplain: "Negativa: don't/doesn't + verbo. Pergunta: Do/Does + sujeito + verbo?",
+            grammarExamples: ["I don't argue with my siblings often.", "Does your family spend quality time together?"],
+            commonMistakes: [
+              "❌ 'She don't get along' → ✅ 'She doesn't get along'",
+              "❌ 'Does you have siblings?' → ✅ 'Do you have siblings?'",
+              "❌ 'We not argue much' → ✅ 'We don't argue much'"
+            ],
+            dialogue: [
+              ["A", "Do you get along with your siblings?"],
+              ["B", "Yes, we rarely argue. We spend a lot of quality time together."],
+              ["A", "Does your household have many relatives living close by?"],
+              ["B", "Yes, most of my relatives live nearby."]
+            ],
+            memoryTip: "'Sibling' não tem gênero — serve pra irmão ou irmã, diferente de 'brother/sister'.",
+            translation: [
+              "Eu me dou bem com meus irmãos.",
+              "Nós raramente brigamos.",
+              "Minha família passa tempo de qualidade junta.",
+              "Você tem parentes por perto?",
+              "Esse é o meu lar."
+            ]
+          }
+        ],
+        quiz: [
+          { q: "___ a sofa in the living room. (there is/are)", type: "fill", answer: "There is" },
+          { q: "___ three bedrooms in the house.", type: "fill", answer: "There are" },
+          { q: "She ___ (vacuum) the house every week.", type: "fill", answer: "vacuums" },
+          { q: "___ you get along with your siblings? (pergunta)", type: "fill", answer: "Do" },
+          { q: "Traduza: 'Tem um sofá na sala.'", type: "translate", answer: "There is a sofa in the living room." },
+          { q: "Traduza: 'Eu lavo a louça toda noite.'", type: "translate", answer: "I do the dishes every night." },
+          { q: "Traduza: 'Eu me dou bem com meus irmãos.'", type: "translate", answer: "I get along with my siblings." },
+          { q: "Corrija: 'There is three bedrooms.'", type: "correct", answer: "There are three bedrooms." },
+          { q: "Corrija: 'She vacuum the house.'", type: "correct", answer: "She vacuums the house." },
+          { q: "Corrija: 'She don't get along with him.'", type: "correct", answer: "She doesn't get along with him." }
+        ]
+      }
+    ]
+  },
+
+  health: {
+    name: "Saúde e Bem-estar",
+    icon: "🩺",
+    color: "#E05263",
+    modules: [
+      {
+        id: "health_m1",
+        title: "Cuidando da Saúde",
+        days: [
+          {
+            id: "health_m1_d1",
+            title: "Sintomas e partes do corpo",
+            vocab: [
+              ["headache", "dor de cabeça"],
+              ["fever", "febre"],
+              ["sore throat", "dor de garganta"],
+              ["stomachache", "dor de estômago"],
+              ["symptom", "sintoma"],
+              ["to feel sick", "se sentir mal"]
+            ],
+            grammarTitle: "Have / Has (sintomas)",
+            grammarExplain: "Usamos 'have/has' para descrever sintomas: I/You/We/They have..., He/She/It has...",
+            grammarExamples: ["I have a headache.", "She has a fever today."],
+            commonMistakes: [
+              "❌ 'I has a headache' → ✅ 'I have a headache'",
+              "❌ 'She have a fever' → ✅ 'She has a fever'",
+              "❌ 'I am having sore throat' (uso incomum) → ✅ 'I have a sore throat'"
+            ],
+            dialogue: [
+              ["A", "What's wrong? You look sick."],
+              ["B", "I have a headache and a sore throat."],
+              ["A", "Do you have a fever too?"],
+              ["B", "I think so, I feel really sick."]
+            ],
+            memoryTip: "'Fever' soa como 'febre' em português — quase igual, fácil de lembrar.",
+            translation: [
+              "Eu tenho dor de cabeça.",
+              "Ela está com febre.",
+              "Eu tenho dor de garganta.",
+              "Quais são os sintomas?",
+              "Eu me sinto mal hoje."
+            ]
+          },
+          {
+            id: "health_m1_d2",
+            title: "Na farmácia e no médico",
+            vocab: [
+              ["pharmacy", "farmácia"],
+              ["prescription", "receita médica"],
+              ["appointment", "consulta"],
+              ["painkiller", "analgésico"],
+              ["to check up", "fazer check-up"],
+              ["dose", "dose"]
+            ],
+            grammarTitle: "Should (conselhos de saúde)",
+            grammarExplain: "Usamos 'should' para dar conselhos e recomendações sobre saúde.",
+            grammarExamples: ["You should see a doctor.", "You should take this medicine twice a day."],
+            commonMistakes: [
+              "❌ 'You should to see a doctor' → ✅ 'You should see a doctor'",
+              "❌ 'You should takes the medicine' → ✅ 'You should take the medicine'",
+              "❌ 'You should going to the pharmacy' → ✅ 'You should go to the pharmacy'"
+            ],
+            dialogue: [
+              ["A", "I need to make an appointment with the doctor."],
+              ["B", "You should also go to the pharmacy for painkillers."],
+              ["A", "How many times a day should I take the dose?"],
+              ["B", "Usually twice a day, but check the prescription."]
+            ],
+            memoryTip: "'Prescription' tem 'script' (escrito) — pense na receita como algo 'escrito' pelo médico.",
+            translation: [
+              "Você deveria ir ao médico.",
+              "Eu preciso marcar uma consulta.",
+              "Vá à farmácia comprar analgésico.",
+              "Qual é a dose certa?",
+              "Eu tenho que fazer check-up."
+            ]
+          },
+          {
+            id: "health_m1_d3",
+            title: "Hábitos saudáveis",
+            vocab: [
+              ["to exercise", "se exercitar"],
+              ["healthy diet", "dieta saudável"],
+              ["to sleep well", "dormir bem"],
+              ["to stay hydrated", "se manter hidratado"],
+              ["habit", "hábito"],
+              ["stress", "estresse"]
+            ],
+            grammarTitle: "Present Simple (hábitos de saúde)",
+            grammarExplain: "Usamos o Present Simple para falar de hábitos saudáveis que fazemos regularmente.",
+            grammarExamples: ["I exercise three times a week.", "She sleeps eight hours every night."],
+            commonMistakes: [
+              "❌ 'I exercises every day' → ✅ 'I exercise every day'",
+              "❌ 'She sleep eight hours' → ✅ 'She sleeps eight hours'",
+              "❌ 'I drinking water all day' → ✅ 'I drink water all day'"
+            ],
+            dialogue: [
+              ["A", "Do you have any healthy habits?"],
+              ["B", "Yes, I exercise regularly and I stay hydrated."],
+              ["A", "Do you sleep well?"],
+              ["B", "Usually, but stress sometimes affects my sleep."]
+            ],
+            memoryTip: "'Hydrated' tem 'hydro' (água) — pense em qualquer coisa relacionada à água, como hidrante.",
+            translation: [
+              "Eu me exercito três vezes por semana.",
+              "Ela dorme oito horas por noite.",
+              "Eu me mantenho hidratado.",
+              "Estresse afeta meu sono.",
+              "Eu tenho uma dieta saudável."
+            ]
+          }
+        ],
+        quiz: [
+          { q: "I ___ a headache. (sintoma)", type: "fill", answer: "have" },
+          { q: "She ___ a fever today.", type: "fill", answer: "has" },
+          { q: "You ___ see a doctor. (conselho)", type: "fill", answer: "should" },
+          { q: "I ___ (exercise) three times a week.", type: "fill", answer: "exercise" },
+          { q: "Traduza: 'Eu tenho dor de cabeça.'", type: "translate", answer: "I have a headache." },
+          { q: "Traduza: 'Você deveria ir ao médico.'", type: "translate", answer: "You should see a doctor." },
+          { q: "Traduza: 'Eu me exercito três vezes por semana.'", type: "translate", answer: "I exercise three times a week." },
+          { q: "Corrija: 'I has a headache.'", type: "correct", answer: "I have a headache." },
+          { q: "Corrija: 'You should to see a doctor.'", type: "correct", answer: "You should see a doctor." },
+          { q: "Corrija: 'She sleep eight hours.'", type: "correct", answer: "She sleeps eight hours." }
+        ]
+      }
+    ]
+  },
+
+  shopping_money: {
+    name: "Compras e Finanças",
+    icon: "🛍️",
+    color: "#F2B134",
+    modules: [
+      {
+        id: "shop_m1",
+        title: "Compras e Dinheiro no Dia a Dia",
+        days: [
+          {
+            id: "shop_m1_d1",
+            title: "No mercado",
+            vocab: [
+              ["grocery store", "mercado"],
+              ["cart", "carrinho de compras"],
+              ["receipt", "nota fiscal / recibo"],
+              ["some", "algum(a)/alguns(as)"],
+              ["any", "algum(a)/nenhum(a)"],
+              ["aisle", "corredor (de mercado)"]
+            ],
+            grammarTitle: "Some / Any (contáveis e incontáveis)",
+            grammarExplain: "Usamos 'some' em afirmativas e 'any' em negativas e perguntas, com substantivos contáveis ou incontáveis.",
+            grammarExamples: ["I need some milk.", "Do we have any bread left?"],
+            commonMistakes: [
+              "❌ 'I need any milk' (afirmativa) → ✅ 'I need some milk'",
+              "❌ 'Do we have some bread?' (pergunta comum) → ✅ 'Do we have any bread?'",
+              "❌ 'We don't have some eggs' → ✅ 'We don't have any eggs'"
+            ],
+            dialogue: [
+              ["A", "Do we have any milk left?"],
+              ["B", "No, but we have some eggs. Let's go to the grocery store."],
+              ["A", "Can you grab a cart? I'll check the receipt after."],
+              ["B", "Sure, the bread is in the next aisle."]
+            ],
+            memoryTip: "Pense em 'some' pra 'sim' (afirmativa) e 'any' pra dúvida/negação.",
+            translation: [
+              "Eu preciso de leite.",
+              "Nós temos ovos?",
+              "Não temos pão.",
+              "Pegue um carrinho, por favor.",
+              "O corredor de frutas fica ali."
+            ]
+          },
+          {
+            id: "shop_m1_d2",
+            title: "Preços e pagamento",
+            vocab: [
+              ["price", "preço"],
+              ["discount", "desconto"],
+              ["cash", "dinheiro (espécie)"],
+              ["credit card", "cartão de crédito"],
+              ["change", "troco"],
+              ["to pay for", "pagar por"]
+            ],
+            grammarTitle: "How much / How many",
+            grammarExplain: "'How much' para incontáveis (dinheiro, quantidade); 'How many' para contáveis (itens).",
+            grammarExamples: ["How much does this cost?", "How many items do you have?"],
+            commonMistakes: [
+              "❌ 'How many money do you have?' → ✅ 'How much money do you have?'",
+              "❌ 'How much items?' → ✅ 'How many items?'",
+              "❌ 'How much cost this?' → ✅ 'How much does this cost?'"
+            ],
+            dialogue: [
+              ["A", "How much does this jacket cost?"],
+              ["B", "It's on discount, so it's cheaper. Will you pay with cash or credit card?"],
+              ["A", "Credit card, please. How many items am I buying total?"],
+              ["B", "Three. Here's your change."]
+            ],
+            memoryTip: "'Change' tem dois sentidos: 'mudança' e 'troco' — pense no dinheiro que 'muda de mãos'.",
+            translation: [
+              "Quanto custa essa jaqueta?",
+              "Quantos itens você está comprando?",
+              "Eu vou pagar em dinheiro.",
+              "Tem desconto nesse produto?",
+              "Aqui está o seu troco."
+            ]
+          },
+          {
+            id: "shop_m1_d3",
+            title: "Orçamento pessoal",
+            vocab: [
+              ["budget", "orçamento"],
+              ["to save (money)", "economizar (dinheiro)"],
+              ["to spend", "gastar"],
+              ["expense", "despesa"],
+              ["income", "renda"],
+              ["to afford", "ter condições de pagar"]
+            ],
+            grammarTitle: "Present Simple (hábitos financeiros)",
+            grammarExplain: "Usamos o Present Simple para falar de hábitos e rotinas com dinheiro.",
+            grammarExamples: ["I save 10% of my income every month.", "She doesn't spend much on clothes."],
+            commonMistakes: [
+              "❌ 'I saves money every month' → ✅ 'I save money every month'",
+              "❌ 'She don't spend much' → ✅ 'She doesn't spend much'",
+              "❌ 'I can't afford to buying it' → ✅ 'I can't afford to buy it'"
+            ],
+            dialogue: [
+              ["A", "Do you follow a budget every month?"],
+              ["B", "Yes, I save part of my income and track my expenses."],
+              ["A", "Can you afford that new phone?"],
+              ["B", "Not right now, I don't want to spend too much this month."]
+            ],
+            memoryTip: "'Afford' soa como 'a fortuna' — pense em ter 'fortuna suficiente' pra comprar algo.",
+            translation: [
+              "Eu economizo parte da minha renda.",
+              "Ela não gasta muito com roupas.",
+              "Eu não posso pagar por isso agora.",
+              "Qual é a sua despesa mensal?",
+              "Eu sigo um orçamento todo mês."
+            ]
+          }
+        ],
+        quiz: [
+          { q: "I need ___ milk. (afirmativa)", type: "fill", answer: "some" },
+          { q: "Do we have ___ bread? (pergunta)", type: "fill", answer: "any" },
+          { q: "___ does this cost? (dinheiro)", type: "fill", answer: "How much" },
+          { q: "I ___ (save) part of my income every month.", type: "fill", answer: "save" },
+          { q: "Traduza: 'Eu preciso de leite.'", type: "translate", answer: "I need some milk." },
+          { q: "Traduza: 'Quanto custa essa jaqueta?'", type: "translate", answer: "How much does this jacket cost?" },
+          { q: "Traduza: 'Eu economizo parte da minha renda.'", type: "translate", answer: "I save part of my income." },
+          { q: "Corrija: 'I need any milk.'", type: "correct", answer: "I need some milk." },
+          { q: "Corrija: 'How many money do you have?'", type: "correct", answer: "How much money do you have?" },
+          { q: "Corrija: 'She don't spend much.'", type: "correct", answer: "She doesn't spend much." }
+        ]
+      }
+    ]
+  },
+
+  school: {
+    name: "Escola e Estudos",
+    icon: "🎓",
+    color: "#5E60CE",
+    modules: [
+      {
+        id: "school_m1",
+        title: "Vida Escolar",
+        days: [
+          {
+            id: "school_m1_d1",
+            title: "Matérias escolares",
+            vocab: [
+              ["subject", "matéria"],
+              ["math", "matemática"],
+              ["science", "ciências"],
+              ["favorite subject", "matéria favorita"],
+              ["teacher", "professor(a)"],
+              ["classmate", "colega de classe"]
+            ],
+            grammarTitle: "Like / Love / Hate + verbo-ing",
+            grammarExplain: "Depois de 'like', 'love' e 'hate', usamos o verbo com -ing.",
+            grammarExamples: ["I love studying science.", "She hates doing homework on weekends."],
+            commonMistakes: [
+              "❌ 'I love study science' → ✅ 'I love studying science'",
+              "❌ 'She hate to do homework' → ✅ 'She hates doing homework'",
+              "❌ 'I like read books' → ✅ 'I like reading books'"
+            ],
+            dialogue: [
+              ["A", "What's your favorite subject?"],
+              ["B", "I love studying math. What about you?"],
+              ["A", "I hate doing math homework, but I like science."],
+              ["B", "My classmates feel the same way!"]
+            ],
+            memoryTip: "'Subject' também significa 'assunto' — pense na matéria como o 'assunto' que você estuda.",
+            translation: [
+              "Eu adoro estudar ciências.",
+              "Ela odeia fazer dever de casa.",
+              "Qual é sua matéria favorita?",
+              "Meu professor é muito legal.",
+              "Meus colegas de classe são divertidos."
+            ]
+          },
+          {
+            id: "school_m1_d2",
+            title: "Rotina escolar",
+            vocab: [
+              ["timetable / schedule", "horário (de aulas)"],
+              ["classroom", "sala de aula"],
+              ["recess / break", "recreio / intervalo"],
+              ["to attend class", "assistir aula / comparecer à aula"],
+              ["lesson", "lição / aula"],
+              ["grade", "nota / série"]
+            ],
+            grammarTitle: "Present Simple (rotina escolar)",
+            grammarExplain: "Usamos o Present Simple pra falar da rotina da escola: horários, aulas, atividades regulares.",
+            grammarExamples: ["Classes start at 8 AM.", "We have a break at 10 o'clock."],
+            commonMistakes: [
+              "❌ 'Classes starts at 8' → ✅ 'Classes start at 8'",
+              "❌ 'She attend class every day' → ✅ 'She attends class every day'",
+              "❌ 'We has a break' → ✅ 'We have a break'"
+            ],
+            dialogue: [
+              ["A", "What time do your classes start?"],
+              ["B", "They start at 8 AM. We have recess at 10."],
+              ["A", "Do you attend every class?"],
+              ["B", "Yes, and I always check my schedule the night before."]
+            ],
+            memoryTip: "'Recess' lembra 'recesso' — uma pausa nas aulas, igual em português.",
+            translation: [
+              "As aulas começam às 8 da manhã.",
+              "Nós temos recreio às 10 horas.",
+              "Eu assisto todas as aulas.",
+              "Qual é a sua nota nessa matéria?",
+              "Essa sala de aula é grande."
+            ]
+          },
+          {
+            id: "school_m1_d3",
+            title: "Provas e deveres de casa",
+            vocab: [
+              ["exam / test", "prova"],
+              ["homework", "dever de casa"],
+              ["to study for", "estudar para"],
+              ["deadline", "prazo de entrega"],
+              ["to pass / to fail", "passar / reprovar"],
+              ["to submit", "entregar (trabalho)"]
+            ],
+            grammarTitle: "Have to / Must (obrigações escolares)",
+            grammarExplain: "Usamos 'have to' e 'must' para falar de obrigações na escola, como estudar e entregar trabalhos.",
+            grammarExamples: ["I have to study for the exam.", "You must submit the homework by Friday."],
+            commonMistakes: [
+              "❌ 'I have study for the exam' → ✅ 'I have to study for the exam'",
+              "❌ 'You must to submit it' → ✅ 'You must submit it'",
+              "❌ 'She has to studies' → ✅ 'She has to study'"
+            ],
+            dialogue: [
+              ["A", "Do you have to study for the exam tonight?"],
+              ["B", "Yes, and I also must submit my homework before the deadline."],
+              ["A", "What happens if you fail?"],
+              ["B", "I'll have to retake the exam next month."]
+            ],
+            memoryTip: "'Deadline' = 'dead' (morto) + 'line' (linha) — pense numa 'linha' que você não pode cruzar depois.",
+            translation: [
+              "Eu tenho que estudar para a prova.",
+              "Você deve entregar o dever até sexta.",
+              "Qual é o prazo de entrega?",
+              "Eu passei na prova!",
+              "Ela reprovou em matemática."
+            ]
+          }
+        ],
+        quiz: [
+          { q: "I love ___ (study) science.", type: "fill", answer: "studying" },
+          { q: "Classes ___ (start) at 8 AM.", type: "fill", answer: "start" },
+          { q: "I ___ to study for the exam. (obrigação)", type: "fill", answer: "have" },
+          { q: "You ___ submit the homework by Friday.", type: "fill", answer: "must" },
+          { q: "Traduza: 'Eu adoro estudar ciências.'", type: "translate", answer: "I love studying science." },
+          { q: "Traduza: 'As aulas começam às 8 da manhã.'", type: "translate", answer: "Classes start at 8 AM." },
+          { q: "Traduza: 'Eu tenho que estudar para a prova.'", type: "translate", answer: "I have to study for the exam." },
+          { q: "Corrija: 'I love study science.'", type: "correct", answer: "I love studying science." },
+          { q: "Corrija: 'Classes starts at 8.'", type: "correct", answer: "Classes start at 8." },
+          { q: "Corrija: 'You must to submit it.'", type: "correct", answer: "You must submit it." }
+        ]
+      }
+    ]
+  },
+
+  gaming: {
+    name: "Games e Internet",
+    icon: "🎮",
+    color: "#FF6F59",
+    modules: [
+      {
+        id: "game_m1",
+        title: "Jogando Online",
+        days: [
+          {
+            id: "game_m1_d1",
+            title: "Vocabulário de jogos",
+            vocab: [
+              ["level", "fase / nível"],
+              ["controller", "controle"],
+              ["to score points", "marcar pontos"],
+              ["multiplayer", "multijogador"],
+              ["opponent", "adversário"],
+              ["to win / to lose", "vencer / perder"]
+            ],
+            grammarTitle: "Present Continuous (ações no jogo)",
+            grammarExplain: "Usamos o Present Continuous (to be + verbo-ing) para descrever ações acontecendo agora, como durante um jogo.",
+            grammarExamples: ["I'm playing a multiplayer game.", "She's scoring a lot of points right now."],
+            commonMistakes: [
+              "❌ 'I playing a game' (sem 'am') → ✅ 'I'm playing a game'",
+              "❌ 'She scoring points' → ✅ 'She's scoring points'",
+              "❌ 'I am play now' → ✅ 'I am playing now'"
+            ],
+            dialogue: [
+              ["A", "What are you playing right now?"],
+              ["B", "I'm playing a multiplayer game against a tough opponent."],
+              ["A", "Are you winning?"],
+              ["B", "Yes, I'm scoring a lot of points this level!"]
+            ],
+            memoryTip: "'Opponent' tem 'oppose' (se opor) — pense em alguém que se 'opõe' a você no jogo.",
+            translation: [
+              "Eu estou jogando um jogo multijogador.",
+              "Ela está marcando muitos pontos.",
+              "Eu estou ganhando essa fase.",
+              "Meu adversário é difícil.",
+              "Onde está o meu controle?"
+            ]
+          },
+          {
+            id: "game_m1_d2",
+            title: "Jogando com amigos",
+            vocab: [
+              ["teammate", "companheiro de equipe"],
+              ["to team up", "formar equipe"],
+              ["chat", "bate-papo / chat"],
+              ["headset", "fone de ouvido com microfone"],
+              ["to invite", "convidar"],
+              ["squad", "esquadrão / grupo de jogadores"]
+            ],
+            grammarTitle: "Can (habilidades no jogo)",
+            grammarExplain: "Usamos 'can' para falar sobre habilidades ou capacidades dentro do jogo.",
+            grammarExamples: ["I can beat this level easily.", "She can't join the squad right now."],
+            commonMistakes: [
+              "❌ 'I can to beat this level' → ✅ 'I can beat this level'",
+              "❌ 'She cannot to join' → ✅ 'She can't join'",
+              "❌ 'I can beats it' → ✅ 'I can beat it'"
+            ],
+            dialogue: [
+              ["A", "Can you team up with me for this match?"],
+              ["B", "Sure! Invite me and put on your headset."],
+              ["A", "Can our squad beat this level together?"],
+              ["B", "Definitely, let's chat and plan our strategy."]
+            ],
+            memoryTip: "'Squad' lembra 'esquadrão' em português — mesmo som e sentido parecido.",
+            translation: [
+              "Você pode formar equipe comigo?",
+              "Eu posso vencer essa fase facilmente.",
+              "Convide seus companheiros de equipe.",
+              "Ela não pode entrar agora.",
+              "Vamos conversar no chat."
+            ]
+          },
+          {
+            id: "game_m1_d3",
+            title: "Regras e estratégias",
+            vocab: [
+              ["rule", "regra"],
+              ["strategy", "estratégia"],
+              ["to respawn", "renascer (no jogo)"],
+              ["cheat", "trapaça"],
+              ["to unlock", "desbloquear"],
+              ["achievement", "conquista (no jogo)"]
+            ],
+            grammarTitle: "Imperativos (instruções de jogo)",
+            grammarExplain: "Usamos o verbo no infinitivo sem 'to' para dar instruções e explicar regras de jogos.",
+            grammarExamples: ["Follow the rules to unlock new levels.", "Don't use cheats in this game."],
+            commonMistakes: [
+              "❌ 'To follow the rules' (como instrução direta) → ✅ 'Follow the rules'",
+              "❌ 'Not use cheats' → ✅ 'Don't use cheats'",
+              "❌ 'You unlock the level' (como comando) → ✅ 'Unlock the level'"
+            ],
+            dialogue: [
+              ["A", "What's the best strategy for this level?"],
+              ["B", "Follow the rules and don't use cheats — unlock achievements naturally."],
+              ["A", "What happens if I lose all my lives?"],
+              ["B", "You respawn at the last checkpoint."]
+            ],
+            memoryTip: "'Respawn' = 're' (de novo) + 'spawn' (nascer) — pense em 'nascer de novo' no jogo.",
+            translation: [
+              "Siga as regras do jogo.",
+              "Não use trapaças.",
+              "Desbloqueie novas fases.",
+              "Qual é a melhor estratégia?",
+              "Eu renasci no último checkpoint."
+            ]
+          }
+        ],
+        quiz: [
+          { q: "I ___ (play) a multiplayer game right now.", type: "fill", answer: "am playing" },
+          { q: "She ___ (score) a lot of points right now.", type: "fill", answer: "is scoring" },
+          { q: "I ___ beat this level easily. (habilidade)", type: "fill", answer: "can" },
+          { q: "___ the rules to unlock new levels. (instrução)", type: "fill", answer: "Follow" },
+          { q: "Traduza: 'Eu estou jogando um jogo multijogador.'", type: "translate", answer: "I am playing a multiplayer game." },
+          { q: "Traduza: 'Eu posso vencer essa fase facilmente.'", type: "translate", answer: "I can beat this level easily." },
+          { q: "Traduza: 'Siga as regras do jogo.'", type: "translate", answer: "Follow the rules of the game." },
+          { q: "Corrija: 'I playing a game.'", type: "correct", answer: "I am playing a game." },
+          { q: "Corrija: 'I can to beat this level.'", type: "correct", answer: "I can beat this level." },
+          { q: "Corrija: 'Not use cheats.'", type: "correct", answer: "Don't use cheats." }
+        ]
+      }
+    ]
+  },
+
+  sports: {
+    name: "Esportes",
+    icon: "⚽",
+    color: "#06A77D",
+    modules: [
+      {
+        id: "sports_m1",
+        title: "Esportes e Competições",
+        days: [
+          {
+            id: "sports_m1_d1",
+            title: "Esportes e equipamentos",
+            vocab: [
+              ["team", "time"],
+              ["ball", "bola"],
+              ["field / court", "campo / quadra"],
+              ["to play (a sport)", "jogar (um esporte)"],
+              ["referee", "árbitro"],
+              ["uniform", "uniforme"]
+            ],
+            grammarTitle: "Like / Play + esporte",
+            grammarExplain: "Usamos 'play' antes de esportes com bola, e 'like' para expressar gosto pelo esporte.",
+            grammarExamples: ["I play soccer every weekend.", "She likes basketball a lot."],
+            commonMistakes: [
+              "❌ 'I do soccer' → ✅ 'I play soccer'",
+              "❌ 'She like basketball' → ✅ 'She likes basketball'",
+              "❌ 'I play to soccer' → ✅ 'I play soccer'"
+            ],
+            dialogue: [
+              ["A", "Do you play any sports?"],
+              ["B", "Yes, I play soccer every weekend with my team."],
+              ["A", "Do you like basketball too?"],
+              ["B", "I do, but I prefer playing on the field, not the court."]
+            ],
+            memoryTip: "'Referee' soa parecido com 'árbitro' na função — pense na 're' de 'regras' que ele aplica.",
+            translation: [
+              "Eu jogo futebol todo fim de semana.",
+              "Ela gosta muito de basquete.",
+              "Onde está a bola?",
+              "O árbitro apitou a falta.",
+              "Esse é o uniforme do time."
+            ]
+          },
+          {
+            id: "sports_m1_d2",
+            title: "Assistindo e torcendo",
+            vocab: [
+              ["fan", "torcedor(a)"],
+              ["to cheer for", "torcer por"],
+              ["match / game", "partida / jogo"],
+              ["score", "placar"],
+              ["stadium", "estádio"],
+              ["live (broadcast)", "ao vivo"]
+            ],
+            grammarTitle: "Present Continuous (jogo acontecendo agora)",
+            grammarExplain: "Usamos Present Continuous para narrar ações que estão acontecendo durante uma partida ao vivo.",
+            grammarExamples: ["The team is winning right now.", "We're watching the match live."],
+            commonMistakes: [
+              "❌ 'The team winning now' → ✅ 'The team is winning now'",
+              "❌ 'We watching live' → ✅ 'We are watching live'",
+              "❌ 'She cheering for her team' → ✅ 'She is cheering for her team'"
+            ],
+            dialogue: [
+              ["A", "Are you watching the match live?"],
+              ["B", "Yes! We're at the stadium, cheering for our team."],
+              ["A", "What's the score right now?"],
+              ["B", "We're winning 2 to 1!"]
+            ],
+            memoryTip: "'Cheer' soa como um grito de torcida — pense no som de 'viva!' animado.",
+            translation: [
+              "O time está ganhando agora.",
+              "Nós estamos assistindo ao vivo.",
+              "Qual é o placar?",
+              "Ela está torcendo pelo time.",
+              "Nós estamos no estádio."
+            ]
+          },
+          {
+            id: "sports_m1_d3",
+            title: "Regras e resultados",
+            vocab: [
+              ["rule", "regra"],
+              ["foul", "falta"],
+              ["to win / to lose / to tie", "vencer / perder / empatar"],
+              ["championship", "campeonato"],
+              ["injury", "lesão"],
+              ["training", "treino"]
+            ],
+            grammarTitle: "Past Simple (resultados de jogos)",
+            grammarExplain: "Usamos o Past Simple pra falar de resultados de partidas que já aconteceram.",
+            grammarExamples: ["We won the championship last year.", "They tied the match 1 to 1."],
+            commonMistakes: [
+              "❌ 'We win the championship yesterday' → ✅ 'We won the championship yesterday'",
+              "❌ 'They tie the game' → ✅ 'They tied the game'",
+              "❌ 'She getted injured' → ✅ 'She got injured'"
+            ],
+            dialogue: [
+              ["A", "Did your team win the championship?"],
+              ["B", "Yes! We won 3 to 0, but one player got injured."],
+              ["A", "Was there a foul in the game?"],
+              ["B", "Yes, and the referee stopped training right after."]
+            ],
+            memoryTip: "'Injury' tem 'injure' (machucar) — pense em algo que 'machuca' durante o jogo.",
+            translation: [
+              "Nós ganhamos o campeonato ano passado.",
+              "Eles empataram o jogo.",
+              "Ela se machucou durante o treino.",
+              "Teve uma falta nesse lance.",
+              "Nós perdemos a partida."
+            ]
+          }
+        ],
+        quiz: [
+          { q: "I ___ (play) soccer every weekend.", type: "fill", answer: "play" },
+          { q: "The team ___ (win) right now.", type: "fill", answer: "is winning" },
+          { q: "We ___ (win) the championship last year.", type: "fill", answer: "won" },
+          { q: "They ___ (tie) the match 1 to 1.", type: "fill", answer: "tied" },
+          { q: "Traduza: 'Eu jogo futebol todo fim de semana.'", type: "translate", answer: "I play soccer every weekend." },
+          { q: "Traduza: 'O time está ganhando agora.'", type: "translate", answer: "The team is winning right now." },
+          { q: "Traduza: 'Nós ganhamos o campeonato ano passado.'", type: "translate", answer: "We won the championship last year." },
+          { q: "Corrija: 'I do soccer.'", type: "correct", answer: "I play soccer." },
+          { q: "Corrija: 'The team winning now.'", type: "correct", answer: "The team is winning now." },
+          { q: "Corrija: 'We win the championship yesterday.'", type: "correct", answer: "We won the championship yesterday." }
+        ]
+      }
+    ]
+  },
+
+  cooking: {
+    name: "Culinária e Receitas",
+    icon: "🍳",
+    color: "#D62839",
+    modules: [
+      {
+        id: "cook_m1",
+        title: "Cozinhando em Casa",
+        days: [
+          {
+            id: "cook_m1_d1",
+            title: "Ingredientes e medidas",
+            vocab: [
+              ["ingredient", "ingrediente"],
+              ["cup", "xícara"],
+              ["tablespoon", "colher de sopa"],
+              ["teaspoon", "colher de chá"],
+              ["a pinch of", "uma pitada de"],
+              ["recipe", "receita"]
+            ],
+            grammarTitle: "Some / Any com ingredientes",
+            grammarExplain: "Usamos 'some' em afirmativas e 'any' em negativas/perguntas para falar de ingredientes.",
+            grammarExamples: ["I need some flour for this recipe.", "We don't have any sugar left."],
+            commonMistakes: [
+              "❌ 'I need any flour' (afirmativa) → ✅ 'I need some flour'",
+              "❌ 'Do you have some salt?' (pergunta comum) → ✅ 'Do you have any salt?'",
+              "❌ 'Add a pinch salt' → ✅ 'Add a pinch of salt'"
+            ],
+            dialogue: [
+              ["A", "Do we have any flour for this recipe?"],
+              ["B", "Yes, and I also have some sugar. Do we need a pinch of salt?"],
+              ["A", "Just one teaspoon. And two tablespoons of oil."],
+              ["B", "Got it, let's start cooking!"]
+            ],
+            memoryTip: "'Pinch' também significa 'beliscar' — pense num 'beliscão' de sal entre os dedos.",
+            translation: [
+              "Eu preciso de farinha para essa receita.",
+              "Nós não temos açúcar.",
+              "Adicione uma pitada de sal.",
+              "Use duas colheres de sopa de óleo.",
+              "Qual é o próximo ingrediente?"
+            ]
+          },
+          {
+            id: "cook_m1_d2",
+            title: "Modo de preparo",
+            vocab: [
+              ["to mix", "misturar"],
+              ["to chop", "picar"],
+              ["to bake", "assar"],
+              ["to boil", "ferver"],
+              ["to preheat (the oven)", "pré-aquecer (o forno)"],
+              ["to stir", "mexer"]
+            ],
+            grammarTitle: "Imperativos (instruções de receita)",
+            grammarExplain: "Receitas usam o verbo no infinitivo sem 'to' para dar instruções, passo a passo.",
+            grammarExamples: ["Preheat the oven to 180°C.", "Chop the vegetables and mix them well."],
+            commonMistakes: [
+              "❌ 'To preheat the oven' (como instrução) → ✅ 'Preheat the oven'",
+              "❌ 'You chop the vegetables' (como comando) → ✅ 'Chop the vegetables'",
+              "❌ 'Stirring the mixture' (como comando) → ✅ 'Stir the mixture'"
+            ],
+            dialogue: [
+              ["A", "What's the first step in this recipe?"],
+              ["B", "Preheat the oven, then chop the vegetables."],
+              ["A", "Should I boil the water first?"],
+              ["B", "Yes, then mix everything and stir well."]
+            ],
+            memoryTip: "'Preheat' = 'pre' (antes) + 'heat' (esquentar) — 'esquentar antes' de usar o forno.",
+            translation: [
+              "Pré-aqueça o forno.",
+              "Pique os vegetais.",
+              "Misture bem os ingredientes.",
+              "Ferva a água.",
+              "Mexa a massa devagar."
+            ]
+          },
+          {
+            id: "cook_m1_d3",
+            title: "Descrevendo pratos",
+            vocab: [
+              ["delicious", "delicioso"],
+              ["tasty", "saboroso"],
+              ["spicy", "picante"],
+              ["sweet", "doce"],
+              ["homemade", "caseiro"],
+              ["to taste like", "ter gosto de"]
+            ],
+            grammarTitle: "Adjetivos para descrever comida",
+            grammarExplain: "Usamos adjetivos depois do verbo 'to be' ou 'to taste' pra descrever sabores e características de pratos.",
+            grammarExamples: ["This soup is delicious.", "It tastes a bit spicy."],
+            commonMistakes: [
+              "❌ 'This is delicious soup' (ordem errada) → ✅ 'This soup is delicious'",
+              "❌ 'It taste spicy' → ✅ 'It tastes spicy'",
+              "❌ 'This taste like sweet' → ✅ 'This tastes sweet'"
+            ],
+            dialogue: [
+              ["A", "How's the homemade soup?"],
+              ["B", "It's delicious! A bit spicy, but really tasty."],
+              ["A", "Is the dessert sweet?"],
+              ["B", "Yes, and it tastes like vanilla."]
+            ],
+            memoryTip: "'Homemade' = 'home' (casa) + 'made' (feito) — algo 'feito em casa'.",
+            translation: [
+              "Essa sopa está deliciosa.",
+              "É um pouco picante.",
+              "A comida caseira é a melhor.",
+              "Isso tem gosto de baunilha.",
+              "A sobremesa é bem doce."
+            ]
+          }
+        ],
+        quiz: [
+          { q: "I need ___ flour. (afirmativa)", type: "fill", answer: "some" },
+          { q: "Do you have ___ salt? (pergunta)", type: "fill", answer: "any" },
+          { q: "___ the oven to 180°C. (instrução)", type: "fill", answer: "Preheat" },
+          { q: "This soup ___ (be) delicious.", type: "fill", answer: "is" },
+          { q: "Traduza: 'Eu preciso de farinha para essa receita.'", type: "translate", answer: "I need some flour for this recipe." },
+          { q: "Traduza: 'Pré-aqueça o forno.'", type: "translate", answer: "Preheat the oven." },
+          { q: "Traduza: 'Essa sopa está deliciosa.'", type: "translate", answer: "This soup is delicious." },
+          { q: "Corrija: 'I need any flour.'", type: "correct", answer: "I need some flour." },
+          { q: "Corrija: 'To preheat the oven.' (como instrução)", type: "correct", answer: "Preheat the oven." },
+          { q: "Corrija: 'It taste spicy.'", type: "correct", answer: "It tastes spicy." }
+        ]
+      }
+    ]
+  },
+
+  environment: {
+    name: "Meio Ambiente e Sustentabilidade",
+    icon: "🌱",
+    color: "#2D6A4F",
+    modules: [
+      {
+        id: "env_m1",
+        title: "Cuidando do Planeta",
+        days: [
+          {
+            id: "env_m1_d1",
+            title: "Vocabulário ambiental",
+            vocab: [
+              ["environment", "meio ambiente"],
+              ["pollution", "poluição"],
+              ["climate change", "mudança climática"],
+              ["to recycle", "reciclar"],
+              ["waste", "lixo / resíduo"],
+              ["renewable energy", "energia renovável"]
+            ],
+            grammarTitle: "Present Simple (fatos sobre o planeta)",
+            grammarExplain: "Usamos o Present Simple para descrever fatos gerais e verdades sobre o meio ambiente.",
+            grammarExamples: ["Plastic takes hundreds of years to decompose.", "Pollution affects the whole planet."],
+            commonMistakes: [
+              "❌ 'Plastic take years' → ✅ 'Plastic takes years'",
+              "❌ 'Pollution affect the planet' → ✅ 'Pollution affects the planet'",
+              "❌ 'We recycling every week' → ✅ 'We recycle every week'"
+            ],
+            dialogue: [
+              ["A", "Why does pollution affect the whole planet?"],
+              ["B", "Because climate change connects everything, even in different countries."],
+              ["A", "Do you recycle at home?"],
+              ["B", "Yes, and we try to use renewable energy too."]
+            ],
+            memoryTip: "'Renewable' tem 'new' (novo) — pense em energia que se 'renova' e nunca acaba.",
+            translation: [
+              "O plástico demora anos para decompor.",
+              "A poluição afeta o planeta todo.",
+              "Nós reciclamos em casa.",
+              "A mudança climática é real.",
+              "Energia renovável é o futuro."
+            ]
+          },
+          {
+            id: "env_m1_d2",
+            title: "Ações sustentáveis no dia a dia",
+            vocab: [
+              ["to reduce", "reduzir"],
+              ["to reuse", "reutilizar"],
+              ["plastic bag", "sacola plástica"],
+              ["to save water/energy", "economizar água/energia"],
+              ["eco-friendly", "ecológico / sustentável"],
+              ["single-use", "de uso único / descartável"]
+            ],
+            grammarTitle: "Should / shouldn't (ações sustentáveis)",
+            grammarExplain: "Usamos 'should' e 'shouldn't' para recomendar ou desaconselhar ações relacionadas à sustentabilidade.",
+            grammarExamples: ["You should reduce single-use plastic.", "We shouldn't waste water."],
+            commonMistakes: [
+              "❌ 'You should to reduce plastic' → ✅ 'You should reduce plastic'",
+              "❌ 'We not should waste water' → ✅ 'We shouldn't waste water'",
+              "❌ 'She should reuses the bag' → ✅ 'She should reuse the bag'"
+            ],
+            dialogue: [
+              ["A", "What can I do to be more eco-friendly?"],
+              ["B", "You should reduce single-use plastic and reuse bags."],
+              ["A", "Should I save water too?"],
+              ["B", "Definitely, and turn off lights to save energy."]
+            ],
+            memoryTip: "'Eco-friendly' = 'eco' (ecológico) + 'friendly' (amigável) — algo 'amigo do meio ambiente'.",
+            translation: [
+              "Você deveria reduzir o uso de plástico.",
+              "Nós não deveríamos desperdiçar água.",
+              "Reutilize as sacolas plásticas.",
+              "Economize energia em casa.",
+              "Isso é ecológico."
+            ]
+          },
+          {
+            id: "env_m1_d3",
+            title: "Debatendo soluções",
+            vocab: [
+              ["solution", "solução"],
+              ["to protect", "proteger"],
+              ["endangered species", "espécie em extinção"],
+              ["deforestation", "desmatamento"],
+              ["to reforest", "reflorestar"],
+              ["awareness", "conscientização"]
+            ],
+            grammarTitle: "First Conditional (soluções ambientais)",
+            grammarExplain: "Usamos If + present simple, will + verbo para falar de soluções reais e possíveis para o meio ambiente.",
+            grammarExamples: ["If we recycle more, we will reduce waste.", "If we don't act now, species will disappear."],
+            commonMistakes: [
+              "❌ 'If we will recycle more' → ✅ 'If we recycle more'",
+              "❌ 'If we don't act, species disappear' (sem will) → ✅ 'If we don't act, species will disappear'",
+              "❌ 'If we reforest, we helping' → ✅ 'If we reforest, we will help'"
+            ],
+            dialogue: [
+              ["A", "What's the solution to deforestation?"],
+              ["B", "If we reforest more areas, we will protect endangered species."],
+              ["A", "Will awareness campaigns help too?"],
+              ["B", "Yes, if more people know about it, they will act."]
+            ],
+            memoryTip: "'Endangered' tem 'danger' (perigo) — pense em espécies 'em perigo'.",
+            translation: [
+              "Se nós reciclarmos mais, reduziremos o lixo.",
+              "Se não agirmos agora, espécies vão desaparecer.",
+              "Nós precisamos proteger espécies em extinção.",
+              "O desmatamento é um grande problema.",
+              "A conscientização ajuda muito."
+            ]
+          }
+        ],
+        quiz: [
+          { q: "Plastic ___ (take) years to decompose.", type: "fill", answer: "takes" },
+          { q: "You ___ reduce single-use plastic. (recomendação)", type: "fill", answer: "should" },
+          { q: "If we recycle more, we ___ (reduce) waste.", type: "fill", answer: "will reduce" },
+          { q: "We ___ (not/waste) water. (recomendação negativa)", type: "fill", answer: "shouldn't waste" },
+          { q: "Traduza: 'O plástico demora anos para decompor.'", type: "translate", answer: "Plastic takes years to decompose." },
+          { q: "Traduza: 'Você deveria reduzir o uso de plástico.'", type: "translate", answer: "You should reduce single-use plastic." },
+          { q: "Traduza: 'Se nós reciclarmos mais, reduziremos o lixo.'", type: "translate", answer: "If we recycle more, we will reduce waste." },
+          { q: "Corrija: 'Plastic take years.'", type: "correct", answer: "Plastic takes years." },
+          { q: "Corrija: 'You should to reduce plastic.'", type: "correct", answer: "You should reduce plastic." },
+          { q: "Corrija: 'If we will recycle more.'", type: "correct", answer: "If we recycle more." }
+        ]
+      }
+    ]
+  },
+
+  news: {
+    name: "Notícias e Atualidades",
+    icon: "📰",
+    color: "#495867",
+    modules: [
+      {
+        id: "news_m1",
+        title: "Acompanhando as Notícias",
+        days: [
+          {
+            id: "news_m1_d1",
+            title: "Lendo manchetes",
+            vocab: [
+              ["headline", "manchete"],
+              ["breaking news", "notícia de última hora"],
+              ["source", "fonte"],
+              ["reporter", "repórter"],
+              ["to report", "reportar / noticiar"],
+              ["article", "matéria / artigo"]
+            ],
+            grammarTitle: "Present Simple (fatos e manchetes)",
+            grammarExplain: "Manchetes de notícias costumam usar o Present Simple mesmo para eventos recentes, para dar sensação de urgência.",
+            grammarExamples: ["Company launches new product.", "The reporter covers the story live."],
+            commonMistakes: [
+              "❌ 'Company launch new product' → ✅ 'Company launches new product'",
+              "❌ 'The reporter cover the story' → ✅ 'The reporter covers the story'",
+              "❌ 'This article talk about...' → ✅ 'This article talks about...'"
+            ],
+            dialogue: [
+              ["A", "Did you see the breaking news?"],
+              ["B", "Yes, a reporter covers the story live right now."],
+              ["A", "What's the source of that article?"],
+              ["B", "It's from a reliable news source."]
+            ],
+            memoryTip: "'Breaking news' = notícia que está 'quebrando' a programação normal — algo urgente.",
+            translation: [
+              "Você viu a manchete de hoje?",
+              "Essa é uma notícia de última hora.",
+              "Qual é a fonte dessa matéria?",
+              "O repórter está cobrindo a história.",
+              "Esse artigo fala sobre economia."
+            ]
+          },
+          {
+            id: "news_m1_d2",
+            title: "Dando opinião sobre notícias",
+            vocab: [
+              ["in my opinion", "na minha opinião"],
+              ["to agree / disagree", "concordar / discordar"],
+              ["issue", "questão / problema"],
+              ["fake news", "notícia falsa"],
+              ["reliable", "confiável"],
+              ["biased", "tendencioso"]
+            ],
+            grammarTitle: "I think / I believe (opiniões sobre notícias)",
+            grammarExplain: "Usamos 'I think' e 'I believe' para dar opiniões sobre notícias e questões atuais.",
+            grammarExamples: ["I think this source is reliable.", "I believe that article is biased."],
+            commonMistakes: [
+              "❌ 'I think that is fake news it' → ✅ 'I think it is fake news'",
+              "❌ 'I no agree with this' → ✅ 'I don't agree with this'",
+              "❌ 'This is very bias' → ✅ 'This is very biased'"
+            ],
+            dialogue: [
+              ["A", "Do you think this news source is reliable?"],
+              ["B", "I believe it's a bit biased, honestly."],
+              ["A", "I disagree, I think it's a real issue they're covering well."],
+              ["B", "Maybe, but I always check if it's fake news first."]
+            ],
+            memoryTip: "'Reliable' tem 'rely' (confiar) — pense em algo em que você pode 'confiar'.",
+            translation: [
+              "Na minha opinião, essa fonte é confiável.",
+              "Eu acredito que essa matéria é tendenciosa.",
+              "Eu concordo com essa questão.",
+              "Isso parece notícia falsa.",
+              "Eu discordo dessa opinião."
+            ]
+          },
+          {
+            id: "news_m1_d3",
+            title: "Discutindo diferentes pontos de vista",
+            vocab: [
+              ["point of view", "ponto de vista"],
+              ["perspective", "perspectiva"],
+              ["debate", "debate"],
+              ["evidence", "evidência"],
+              ["controversial", "controverso"],
+              ["to consider", "considerar"]
+            ],
+            grammarTitle: "Might / Could (possibilidade em debates)",
+            grammarExplain: "Usamos 'might' e 'could' para expressar possibilidade, útil em debates e opiniões incertas.",
+            grammarExamples: ["This might be true, but we need more evidence.", "The situation could change soon."],
+            commonMistakes: [
+              "❌ 'This might to be true' → ✅ 'This might be true'",
+              "❌ 'The situation could changes' → ✅ 'The situation could change'",
+              "❌ 'It might be truth' → ✅ 'It might be true'"
+            ],
+            dialogue: [
+              ["A", "What's your perspective on this controversial issue?"],
+              ["B", "This might be true, but we need more evidence before deciding."],
+              ["A", "The situation could change after the debate."],
+              ["B", "I always consider different points of view first."]
+            ],
+            memoryTip: "'Controversial' tem 'controversy' — pense em algo que gera 'controvérsia', ou seja, opiniões diferentes.",
+            translation: [
+              "Isso pode ser verdade, mas precisamos de evidências.",
+              "A situação pode mudar em breve.",
+              "Qual é o seu ponto de vista?",
+              "Esse assunto é controverso.",
+              "Eu considero diferentes perspectivas."
+            ]
+          }
+        ],
+        quiz: [
+          { q: "Company ___ (launch) new product. (manchete)", type: "fill", answer: "launches" },
+          { q: "I ___ this source is reliable. (opinião)", type: "fill", answer: "think" },
+          { q: "This ___ (might/be) true, but we need evidence.", type: "fill", answer: "might be" },
+          { q: "The situation ___ (could/change) soon.", type: "fill", answer: "could change" },
+          { q: "Traduza: 'Você viu a manchete de hoje?'", type: "translate", answer: "Did you see today's headline?" },
+          { q: "Traduza: 'Na minha opinião, essa fonte é confiável.'", type: "translate", answer: "In my opinion, this source is reliable." },
+          { q: "Traduza: 'A situação pode mudar em breve.'", type: "translate", answer: "The situation could change soon." },
+          { q: "Corrija: 'Company launch new product.'", type: "correct", answer: "Company launches new product." },
+          { q: "Corrija: 'This might to be true.'", type: "correct", answer: "This might be true." },
+          { q: "Corrija: 'The situation could changes.'", type: "correct", answer: "The situation could change." }
+        ]
+      }
+    ]
+  },
+
+  instruments: {
+    name: "Instrumentos Musicais",
+    icon: "🎸",
+    color: "#9C6644",
+    modules: [
+      {
+        id: "inst_m1",
+        title: "Aprendendo Música",
+        days: [
+          {
+            id: "inst_m1_d1",
+            title: "Instrumentos musicais",
+            vocab: [
+              ["guitar", "violão / guitarra"],
+              ["drums", "bateria"],
+              ["piano / keyboard", "piano / teclado"],
+              ["violin", "violino"],
+              ["to play (an instrument)", "tocar (um instrumento)"],
+              ["band", "banda"]
+            ],
+            grammarTitle: "Can (habilidades musicais)",
+            grammarExplain: "Usamos 'can' para falar sobre habilidades musicais que temos ou não.",
+            grammarExamples: ["I can play the guitar.", "She can't play the drums yet."],
+            commonMistakes: [
+              "❌ 'I can to play guitar' → ✅ 'I can play guitar'",
+              "❌ 'She can plays drums' → ✅ 'She can play drums'",
+              "❌ 'I can play the piano well' está correto, mas cuidado: '❌ I play can piano' → ✅ 'I can play piano'"
+            ],
+            dialogue: [
+              ["A", "Can you play any instruments?"],
+              ["B", "Yes, I can play the guitar and a little piano."],
+              ["A", "Can you play in a band?"],
+              ["B", "Not yet, but I'm learning drums too."]
+            ],
+            memoryTip: "'Band' em português também é 'banda' — praticamente igual!",
+            translation: [
+              "Eu sei tocar violão.",
+              "Ela ainda não sabe tocar bateria.",
+              "Você toca algum instrumento?",
+              "Eu toco em uma banda.",
+              "Ele sabe tocar violino."
+            ]
+          },
+          {
+            id: "inst_m1_d2",
+            title: "Aprendendo a tocar",
+            vocab: [
+              ["lesson", "aula (de música)"],
+              ["to practice", "praticar"],
+              ["chord", "acorde"],
+              ["note", "nota (musical)"],
+              ["sheet music", "partitura"],
+              ["to tune (an instrument)", "afinar (um instrumento)"]
+            ],
+            grammarTitle: "Present Continuous (aprendendo agora)",
+            grammarExplain: "Usamos Present Continuous para falar de algo que está em processo de aprendizado atualmente.",
+            grammarExamples: ["I'm learning to play the guitar.", "She's practicing chords every day."],
+            commonMistakes: [
+              "❌ 'I learning to play guitar' (sem 'am') → ✅ 'I'm learning to play guitar'",
+              "❌ 'She practicing every day' → ✅ 'She's practicing every day'",
+              "❌ 'I am tune my guitar' → ✅ 'I am tuning my guitar'"
+            ],
+            dialogue: [
+              ["A", "Are you taking guitar lessons?"],
+              ["B", "Yes, I'm learning new chords every week."],
+              ["A", "Are you reading sheet music yet?"],
+              ["B", "A little, and I'm tuning my guitar every day too."]
+            ],
+            memoryTip: "'Chord' soa como 'corda' — pense nas cordas do violão formando o acorde.",
+            translation: [
+              "Eu estou aprendendo a tocar violão.",
+              "Ela está praticando acordes.",
+              "Eu estou afinando meu instrumento.",
+              "Essa é uma nota musical.",
+              "Eu tenho aula de música toda semana."
+            ]
+          },
+          {
+            id: "inst_m1_d3",
+            title: "Bandas e apresentações",
+            vocab: [
+              ["performance", "apresentação"],
+              ["audience", "plateia"],
+              ["stage", "palco"],
+              ["rehearsal", "ensaio"],
+              ["gig", "show (informal, tocada)"],
+              ["to perform", "se apresentar"]
+            ],
+            grammarTitle: "Present Perfect (há quanto tempo)",
+            grammarExplain: "Usamos have/has + been + verbo-ing (ou particípio) com 'for/since' para dizer há quanto tempo fazemos algo.",
+            grammarExamples: ["I have played guitar for five years.", "She has performed on stage since she was ten."],
+            commonMistakes: [
+              "❌ 'I play guitar for five years' → ✅ 'I have played guitar for five years'",
+              "❌ 'She has perform since' → ✅ 'She has performed since'",
+              "❌ 'I have played guitar since five years' → ✅ 'I have played guitar for five years'"
+            ],
+            dialogue: [
+              ["A", "How long have you played guitar?"],
+              ["B", "I've played for five years. We have a rehearsal tonight."],
+              ["A", "Have you ever performed for a big audience?"],
+              ["B", "Yes, our band played a gig on a huge stage last year."]
+            ],
+            memoryTip: "'Gig' é uma gíria comum entre músicos pra 'show' — curta e fácil de lembrar.",
+            translation: [
+              "Eu toco violão há cinco anos.",
+              "Ela se apresenta desde os dez anos.",
+              "Nós temos ensaio hoje à noite.",
+              "A plateia estava enorme.",
+              "Nossa banda tocou num show ótimo."
+            ]
+          }
+        ],
+        quiz: [
+          { q: "I ___ play the guitar. (habilidade)", type: "fill", answer: "can" },
+          { q: "I ___ (learn) to play guitar right now.", type: "fill", answer: "am learning" },
+          { q: "I have ___ (play) guitar for five years.", type: "fill", answer: "played" },
+          { q: "___ long have you played guitar?", type: "fill", answer: "How" },
+          { q: "Traduza: 'Eu sei tocar violão.'", type: "translate", answer: "I can play the guitar." },
+          { q: "Traduza: 'Eu estou aprendendo a tocar violão.'", type: "translate", answer: "I am learning to play the guitar." },
+          { q: "Traduza: 'Eu toco violão há cinco anos.'", type: "translate", answer: "I have played guitar for five years." },
+          { q: "Corrija: 'I can to play guitar.'", type: "correct", answer: "I can play guitar." },
+          { q: "Corrija: 'I learning to play guitar.'", type: "correct", answer: "I am learning to play guitar." },
+          { q: "Corrija: 'I play guitar for five years.'", type: "correct", answer: "I have played guitar for five years." }
+        ]
+      }
+    ]
   }
 };
